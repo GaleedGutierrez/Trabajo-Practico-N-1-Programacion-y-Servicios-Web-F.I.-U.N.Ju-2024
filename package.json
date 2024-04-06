@@ -1,0 +1,38 @@
+{
+	"name": "trabajo-practico-n-1-programacion-y-servicios-web-f.i.-u.n.ju-2024",
+	"version": "1.0.0",
+	"description": "Trabajo practico",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint ./**/*.{js,mjs,cjs,ts,mts}",
+		"lint:fix": "eslint --fix ./**/*.{js,mjs,cjs,ts,mts}",
+		"lint:html": "prettier ./**/*.html --write",
+		"stylelint": "stylelint ./**/*.{css,scss}",
+		"stylelint:fix": "stylelint --fix ./**/*.{css,scss}",
+		"prepare": "husky"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GaleedGutierrez/Trabajo-Practico-N-1-Programacion-y-Servicios-Web-F.I.-U.N.Ju-2024.git"
+	},
+	"keywords": [
+		"html",
+		"css"
+	],
+	"author": "Galeed Gutierrez <galeedeveloper@gmail.com> (https://galeedgutierrez.com/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/GaleedGutierrez/Trabajo-Practico-N-1-Programacion-y-Servicios-Web-F.I.-U.N.Ju-2024/issues"
+	},
+	"homepage": "https://github.com/GaleedGutierrez/Trabajo-Practico-N-1-Programacion-y-Servicios-Web-F.I.-U.N.Ju-2024#readme",
+	"devDependencies": {
+		"@commitlint/cli": "^19.2.1",
+		"@commitlint/config-conventional": "^19.1.0",
+		"husky": "^9.0.11",
+		"prettier": "^3.2.5",
+		"stylelint": "^16.3.1",
+		"stylelint-config-standard": "^36.0.0",
+		"stylelint-order": "^6.0.4",
+		"stylelint-prettier": "^5.0.0"
+	}
+}

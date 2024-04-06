@@ -1,0 +1,4 @@
+{
+	"*.html": "npm run lint:html",
+	"*{css,s(a|c)ss}": "npm run stylelint:fix"
+}
